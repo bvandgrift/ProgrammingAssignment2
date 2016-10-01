@@ -1,3 +1,20 @@
+### Solution
+
+The solution is included in `cachematrix.R`.
+
+The `cacheMatrix` object (as returned by `makeCacheMatrix(x)`) has
+the following functions:
+
+* `cacheMatrix$get()` gets the matrix value
+* `cacheMatrix$set(new.m)` sets the matrix value and nullifies the inverse value
+* `cacheMatrix$get.inverse()` gets the inverse value
+* `cacheMatrix$set.inverse(new.i)` sets the inverse value
+
+The `cacheSolve()` function is described below.
+
+I have included some tests, used when writing the assignment. They are
+rudimentary.
+
 ### Introduction
 
 This second programming assignment will require you to write an R
